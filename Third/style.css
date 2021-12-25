@@ -1,0 +1,73 @@
+﻿body {
+    background: #E1E1E1;
+}
+
+ul#navbar {
+    list-style-type: none;
+    background: #000000;
+    padding-left: 30%;
+}
+ul#navbar li {
+    display: inline-block;
+}
+
+ul#navbar li a {
+     display: block;
+     text-decoration: none;
+     color: #ffffff;
+     background: #000000;
+     padding: 20px;
+     font-size: 1.2em;
+     transition: all 0.5s ease;
+}
+
+ul#navbar li a:hover {
+     background: #ffffff;
+     color: #000000;
+}
+
+.bottom {
+    list-style-type: none;
+    background: #000000;
+    width:100%;
+    height: 79px;
+    padding-bottom: 0px;
+    position: absolute;
+    bottom: 0;
+}
+
+.bottom p {
+   display: block;
+   text-decoration: none;
+   color: #ffffff;
+   background: #000000;
+   padding: 20px;
+   font-size: 1.2em;
+   text-align:center;
+}
+.write {
+    border: none;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 5px;
+}
+.cta {
+    width: 101px;
+    line-height: 1.9;
+    border-radius: 3px;
+    border: navajowhite;
+}
+#footer {
+    background-color: #F3F3F3;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.assetlist {
+    border: 1px solid black;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    padding: 35px;
+    border-radius: 5px;
+    font-size: 16px;
+}
